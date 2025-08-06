@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import Home from "./components/Layout/Home";
-import { RouterProvider, createBrowserRouter } from "react-router-dom";
+import { RouterProvider, createBrowserRouter, createHashRouter } from "react-router-dom";
 import Chats from "./components/Chats/Chats";
 import Profile from "./components/Profile/Profile";
 import Groups from "./components/Groups/Groups";
@@ -21,7 +21,7 @@ import Settings from "./components/Settings/Settings";
 import SignupLogin from "./components/SignupLogin/SignupLogin";
 import Auth from "./components/Auth/Auth";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
     {
         path: "/",
         element: <SignupLogin />,

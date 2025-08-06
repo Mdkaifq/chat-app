@@ -23,11 +23,11 @@ const Sidebar = ({ username }) => {
                             Profile
                         </Link>
                     </li>
-                    <li className="mr-2 lg:my-2">
+                    {/* <li className="mr-2 lg:my-2">
                         <Link to="/cp/groups" className="hover:text-amber-400">
                             Groups
                         </Link>
-                    </li>
+                    </li> */}
                     <li className="mr-2 lg:my-2">
                         <Link to="/cp/users" className="hover:text-amber-400">
                             Users

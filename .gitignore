@@ -1,7 +1,7 @@
 *.pyc
 __pycache__/
 .env
-venv/
+myenv/
 .dockerignore
 index.bin
 node_modules/
